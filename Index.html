@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class = "Logoalura " src = "/Imagens/LogoAlura.png" alt = "Logo da alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows = "5" placeholder="Digite seu Texto"></textarea> 
+                <div class="informação">
+                    <h6>Apenas letras minusculas e sem acento</h6>
+                </div>
+                <div class  ="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btndescriptografar()">Descriptografar</button>
+                 </div>
+        </section>
+        <Section>
+            <div> 
+                <textarea class="mensagem" cols="20" rows = "10"></textarea> 
+
+            </div>
+            <button class="btn-copiar">Copiar</button>
+        </Section>
+
+    </main>
+    <footer>
+        <p class="Copyright">&copy;Challenge Alura-Felipe Ferreira</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
